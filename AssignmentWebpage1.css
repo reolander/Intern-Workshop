@@ -1,0 +1,86 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+
+/* -- Navigation Menu -- */
+
+nav {
+  background-color: #1295C9;
+  opacity: .95;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1050;
+  webkit-box-shadow: 2px 10px 5px 0px rgba(230, 205, 230, 1);
+  -moz-box-shadow: 2px 10px 5px 0px rgba(230, 205, 230, 1);
+  box-shadow: 2px 5px 5px 0px #333;
+}
+
+nav ul {
+   margin: 0;
+  padding: 20px 0;
+  margin-left: 0px;
+  padding-left: 0px;
+  text-align: left;
+}
+
+nav li {
+  color: #fff;
+  display: inline;
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  }
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  transition: coror .3s;
+}
+
+/* -- Home Jumbotron -- */
+.jumbotron {
+  background: url("http://workshop.internshala.com/uploads/workshop_images/webdev/webdev_workshop.png") no-repeat;
+  background-size: cover;
+  height: 750px;
+}
+
+
+/* -- Footer -- */
+footer {
+  background-color: #1295C9;
+  padding-top:10px;
+}
+
+
+footer ul {
+ margin: 0;
+  padding: 20px 0;
+  margin-left: 0px;
+  padding-left: 0px;
+  text-align: left;
+  
+}
+
+footer li {
+  color: #fff;
+  display: inline;
+  font-size: 18px;
+  font-weight: 600;
+  padding-right: 18px;
+  text-decoration: none;
+ 
+  }
